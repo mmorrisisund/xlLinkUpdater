@@ -13,6 +13,5 @@ Attribute VB_Exposed = False
 ' Date   : 07/03/2016
 ' Purpose:
 '---------------------------------------------------------------------------------------
-Option Explicit
-
+Option
 ' TODO: Implement HyperlinkInfo class
