@@ -15,3 +15,21 @@ Attribute VB_Exposed = False
 '---------------------------------------------------------------------------------------
 Option Explicit
 ' TODO: Implement HyperlinkInfo class
+
+'---------------------------------------------------------------------------------------
+' Private Fields
+'---------------------------------------------------------------------------------------
+'
+Private m_Address As String
+'
+
+'---------------------------------------------------------------------------------------
+' Public Properties
+'---------------------------------------------------------------------------------------
+'
+Public Property Let Address(value As String)
+    m_Address = value
+End Property
+Public Property Get Address() As String
+    Address = m_Address
+End Property
